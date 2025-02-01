@@ -1,0 +1,116 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+header p {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#about h2 {
+    font-size: 2em;
+}
+#about p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: #eee;
+}
+#projects h2 {
+    font-size: 2em;
+    text-align: center;
+}
+.project {
+    margin: 20px 0;
+}
+.project h3 {
+    font-size: 1.5em;
+}
+.project p {
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#contact h2 {
+    font-size: 2em;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
